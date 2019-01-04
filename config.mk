@@ -28,8 +28,9 @@ endef
 # Projects will be started in this order
 define SUBPROJECT_REPOS
 git@github.com:/reactioncommerce/reaction-hydra.git,reaction-hydra,master \
-git@github.com:/reactioncommerce/reaction.git,reaction,master \
-git@github.com:/reactioncommerce/reaction-next-starterkit.git,reaction-next-starterkit,master
+# git@github.com:/reactioncommerce/reaction.git,reaction,master \
+git@github.com:alfredalfie123/reaction-platform.git,reaction.master \
+# git@github.com:/reactioncommerce/reaction-next-starterkit.git,reaction-next-starterkit,master
 endef
 
 # List of user defined networks that should be created.
