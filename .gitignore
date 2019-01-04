@@ -2,3 +2,6 @@ reaction
 reaction-hydra
 reaction-next-starterkit
 payments-cod
+!^.github/
+!^.docs/
+config.local.mk
